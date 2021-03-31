@@ -7,6 +7,11 @@ class App extends Component {
   render() {
     return (
       <Provider>
+        <View>
+          <Text>
+            Hello!
+          </Text>
+        </View>
       </Provider>
     )
   }

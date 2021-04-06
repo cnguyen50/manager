@@ -11,6 +11,19 @@ class LoginForm extends Component {
             placeholder="email@gmail.com"
           />
         </CardSection>
+
+        <CardSection>
+          <Input 
+            secureTextEntry
+            label="password"
+          />
+        </CardSection>
+
+        <CardSection>
+          <Button>
+            Login
+          </Button>          
+        </CardSection>
       </Card>
     )
   }

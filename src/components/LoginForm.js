@@ -5,7 +5,7 @@ import { emailChanged } from '../actions'
 
 class LoginForm extends Component {
   onEmailChange(text) {
-
+    this.props.emailChanged(text)
   }
 
   render() {

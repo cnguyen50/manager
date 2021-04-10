@@ -8,6 +8,10 @@ class LoginForm extends Component {
     this.props.emailChanged(text)
   }
 
+  onPasswordChange(text) {
+    this.props.passwordChanged(text)
+  }
+
   render() {
     return (
       <Card>

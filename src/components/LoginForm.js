@@ -24,6 +24,7 @@ class LoginForm extends Component {
           <Input 
             secureTextEntry
             label="password"
+            placeholder="password"
           />
         </CardSection>
 

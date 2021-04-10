@@ -36,6 +36,10 @@ class LoginForm extends Component {
   }
 }
 
-const mapStateToProps = state => {}
+const mapStateToProps = state => {
+  return {
+    email: state.auth.email
+  }
+}
 
 export default connect(null, {emailChanged})(LoginForm)

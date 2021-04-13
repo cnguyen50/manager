@@ -13,3 +13,7 @@ export const passwordChanged = (text) => {
     payload: text
   }
 }
+
+export const loginUser = ({ email, password }) => {
+  
+}

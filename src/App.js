@@ -21,7 +21,7 @@ class App extends Component {
   }
   render() {
     return (
-      <Provider store={createStore()}>
+      <Provider store={createStore(reducers)}>
         <LoginForm />
       </Provider>
     )

@@ -5,14 +5,13 @@ const INITIAL_STATE = {
   password: ''
 }
 
-export default (state = INITIAL_STATE, actions) => {
-  switch (actions.type) {
+export default (state = INITIAL_STATE, action) => {
+  switch (action.type) {
     case EMAIL_CHANGED:
-      state.email = action.payload
       return { ...state, email: action.payload }
     case PASSWORD_CHANGED:
-      state.password = action.payload
       return { ...state, password: action.payload }
+    case LOGIN_USER_SUCCESS:
     default:
       return state;
   }

@@ -3,7 +3,8 @@ import { EMAIL_CHANGED, PASSWORD_CHANGED, LOGIN_USER_SUCCESS } from '../actions/
 const INITIAL_STATE = { 
   email: '', 
   password: '',
-  user: null
+  user: null,
+  error: ''
 }
 
 export default (state = INITIAL_STATE, action) => {

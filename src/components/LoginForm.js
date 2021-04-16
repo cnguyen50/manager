@@ -51,6 +51,8 @@ class LoginForm extends Component {
           />
         </CardSection>
 
+        {this.renderError()}
+
         <CardSection>
           <Button onPress={this.onButtonPress.bind(this)}>
             Login

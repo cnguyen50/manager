@@ -15,7 +15,6 @@ class LoginForm extends Component {
 
   onButtonPress () {
     const { email, password } = this.props
-
     this.props.loginUser({ email, password })
   }
 
@@ -54,10 +53,8 @@ class LoginForm extends Component {
 
         {this.renderError()}
 
-        <CardSection>
-          <Button onPress={this.onButtonPress.bind(this)}>
-            Login
-          </Button>          
+        <CardSection>     
+          {this.renderButton()}  
         </CardSection>
       </Card>
     )

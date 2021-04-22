@@ -18,11 +18,11 @@ class EmployeeCreate extends Component {
             placeholder="555-555-5555"
           />
         </CardSection>
+        
         <CardSection>
-
-        </CardSection>
-        <CardSection>
-
+          <Button>
+            Create
+          </Button>
         </CardSection>
       </Card>
     )

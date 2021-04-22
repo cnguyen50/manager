@@ -6,7 +6,10 @@ class EmployeeCreate extends Component {
     return (
       <Card>
         <CardSection>
-
+          <Input 
+            label="Name"
+            palceholder="Jane"
+          />
         </CardSection>
         <CardSection>
 

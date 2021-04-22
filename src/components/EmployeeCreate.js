@@ -8,11 +8,15 @@ class EmployeeCreate extends Component {
         <CardSection>
           <Input 
             label="Name"
-            palceholder="Jane"
+            placeholder="Jane"
           />
         </CardSection>
-        <CardSection>
 
+        <CardSection>
+          <Input 
+            label="Phone"
+            placeholder="555-555-5555"
+          />
         </CardSection>
         <CardSection>
 

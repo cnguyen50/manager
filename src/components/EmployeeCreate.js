@@ -11,6 +11,7 @@ class EmployeeCreate extends Component {
           <Input 
             label="Name"
             placeholder="Jane"
+            value={this.props.name}
           />
         </CardSection>
 

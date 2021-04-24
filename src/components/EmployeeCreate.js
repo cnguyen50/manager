@@ -12,6 +12,7 @@ class EmployeeCreate extends Component {
             label="Name"
             placeholder="Jane"
             value={this.props.name}
+            onChangeText={text => this.props.employeeUpdate({ prop: 'name', value: text })}
           />
         </CardSection>
 

@@ -19,6 +19,7 @@ class EmployeeCreate extends Component {
           <Input 
             label="Phone"
             placeholder="555-555-5555"
+            value={this.props.phone}
           />
         </CardSection>
         

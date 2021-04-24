@@ -31,4 +31,4 @@ class EmployeeCreate extends Component {
   }
 }
 
-export default EmployeeCreate
+export default connect(null, { employeeUpdate })(EmployeeCreate)

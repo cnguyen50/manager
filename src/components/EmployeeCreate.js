@@ -27,7 +27,7 @@ class EmployeeCreate extends Component {
         </CardSection>
 
         <CardSection>
-          <Text>Shift</Text>
+          <Text style={StyleSheet.pickerTextStyle}>Shift</Text>
           <Picker
             style={{ flex: 1 }}
             selectedValue={this.props.shift}

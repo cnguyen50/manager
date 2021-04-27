@@ -1,4 +1,5 @@
 import { React, Component } from 'react'
+import { Picker } from 'react-native'
 import { connect } from 'react-redux'
 import { employeeUpdate } from '../actions'
 import { Card, CardSection, Input, Button } from './common'

@@ -27,7 +27,7 @@ class EmployeeCreate extends Component {
         </CardSection>
 
         <CardSection>
-          <Text style={StyleSheet.pickerTextStyle}>Shift</Text>
+          <Text style={pickerTextStyle}>Shift</Text>
           <Picker
             style={{ flex: 1 }}
             selectedValue={this.props.shift}
@@ -50,6 +50,13 @@ class EmployeeCreate extends Component {
         </CardSection>
       </Card>
     )
+  }
+}
+
+const styles = {
+  pickerTextStyle: {
+    fontSize: 18,
+    paddingLeft: 20
   }
 }
 

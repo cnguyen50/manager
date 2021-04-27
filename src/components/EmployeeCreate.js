@@ -25,6 +25,10 @@ class EmployeeCreate extends Component {
             onChangeText={value => this.props.employeeUpdate({ prop: 'phone', value })}
           />
         </CardSection>
+
+        <CardSection>
+          <Picker></Picker>
+        </CardSection>
         
         <CardSection>
           <Button>

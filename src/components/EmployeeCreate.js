@@ -5,6 +5,7 @@ import { employeeUpdate, employeeCreate } from '../actions'
 import { Card, CardSection, Input, Button } from './common'
 
 class EmployeeCreate extends Component {
+
   onButtonPress() {
     const { name, phone, shift } = this.props
 
@@ -71,4 +72,4 @@ const mapStateToProps = (state) => {
   return { name, phone, shift }
 }
 
-export default connect(mapStateToProps, { employeeUpdate })(EmployeeCreate)
+export default connect(mapStateToProps, { employeeUpdate, employeeCreate })(EmployeeCreate)

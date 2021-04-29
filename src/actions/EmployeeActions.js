@@ -1,3 +1,4 @@
+import firebase from 'firebase'
 import {
   EMPLOYEE_UPDATE
 } from './types'

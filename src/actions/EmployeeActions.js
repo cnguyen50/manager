@@ -1,7 +1,8 @@
 import firebase from 'firebase'
 import { Actions } from 'react-native-router-flux'
 import {
-  EMPLOYEE_UPDATE
+  EMPLOYEE_UPDATE,
+  EMPLOYEE_CREATE
 } from './types'
 import { Actions } from 'react-native-router-flux'
 

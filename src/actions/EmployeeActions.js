@@ -25,3 +25,7 @@ export const employeeCreate = ({ name, phone ,shift }) => {
       })
   }
 }
+
+export const employeesFetch = () => {
+  
+}

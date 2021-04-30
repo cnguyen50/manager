@@ -27,5 +27,7 @@ export const employeeCreate = ({ name, phone ,shift }) => {
 }
 
 export const employeesFetch = () => {
-  
+  return (dispatch) => {
+    firebase.database().ref(`/users/${currentUser.uid}/employees`)
+  }
 }

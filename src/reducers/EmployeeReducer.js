@@ -9,5 +9,7 @@ export default (state = INITIAL_STATE, action) => {
     case EMPLOYEES_FETCH_SUCCESS:
       console.log(action)
       return state
+    default:
+      return state
   }
 }

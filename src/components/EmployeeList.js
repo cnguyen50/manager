@@ -6,9 +6,13 @@ import { employeeFetch } from '../actions'
 class EmployeeList extends Component {
   componentDidMount() {
     this.props.employeeFetch()
+
+    const ds = new ListView.DataSource({
+      rowHasChanged: (r1, r2) => r1 !== r2
+    })
+
+    this.DataSource = ds.cloneWithRows(this.props.employees)
   }
-
-
   
   render() {
     return (

@@ -42,7 +42,7 @@ const mapStateToProps = state => {
   const employees = _.map(state.employees, (val, uid) => {
     return { ...val, uid}
   })
-
+  return { employees }
 }
 
 export default connect(null, { employeeFetch })(EmployeeList)

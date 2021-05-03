@@ -12,6 +12,7 @@ class EmployeeList extends Component {
 
   componentWillReceiveProps(nextProps) {
     //nextProps
+    this.createDataSource(nextProps)
   }
   
   createDataSource({ employees }) {
@@ -19,7 +20,7 @@ class EmployeeList extends Component {
       rowHasChanged: (r1, r2) => r1 !== r2
     })
 
-    this.dataSource = ds.cloneWithRows(this.props.employees)
+    this.dataSource = ds.cloneWithRows(employees)
   }
 
   render() {

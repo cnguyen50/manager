@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import _ from 'lodash'
 import { connect } from 'react-redux'
 import { View, Text, ListView } from 'react-native'
 import { employeeFetch } from '../actions'
@@ -38,7 +39,7 @@ class EmployeeList extends Component {
 }
 
 const mapStateToProps = state => {
-  
+
 }
 
 export default connect(null, { employeeFetch })(EmployeeList)

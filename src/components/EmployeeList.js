@@ -6,6 +6,8 @@ import { employeeFetch } from '../actions'
 class EmployeeList extends Component {
   componentDidMount() {
     this.props.employeeFetch()
+
+    this.createDataSource(this.props)
   }
 
   componentWillReceiveProps(nextProps) {

@@ -4,6 +4,14 @@ import { CardSection } from './common'
 
 class ListItem extends Component {
   render() {
-    <Text></Text>
+    const { name } = this.props.employee
+    
+    return (
+      <CardSection>
+        <Text>
+          {name}
+        </Text>
+      </CardSection>
+    ) 
   }
 }

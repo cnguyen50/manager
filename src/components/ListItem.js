@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Text } from 'react-native'
+import { Text, TouchableWithoutFeedback, View } from 'react-native'
 import { CardSection } from './common'
 
 class ListItem extends Component {

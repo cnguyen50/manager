@@ -7,11 +7,13 @@ class ListItem extends Component {
     const { name } = this.props.employee
     
     return (
-      <CardSection>
-        <Text style={styles.titleStyle}>
-          {name}
-        </Text>
-      </CardSection>
+      <View>
+        <CardSection>
+          <Text style={styles.titleStyle}>
+            {name}
+          </Text>
+        </CardSection>
+      </View>
     ) 
   }
 }

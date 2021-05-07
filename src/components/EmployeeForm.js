@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { View, Text, Picker } from 'react-native'
+import { connect } from 'react-redux'
 import { CardSection, Input } from './common'
 
 class EmployeeForm extends Component {

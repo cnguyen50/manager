@@ -51,4 +51,4 @@ const styles = {
   }
 }
 
-export default EmployeeForm
+export default connect(null, { employeeUpdate })(EmployeeForm)

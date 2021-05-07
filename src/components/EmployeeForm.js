@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { View, Text, Picker } from 'react-native'
 
 class EmployeeForm extends Component {
   render() {

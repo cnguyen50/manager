@@ -12,10 +12,11 @@ const RouterComponent = () => {
         <Scene key="auth">
           <Scene key="login" component={LoginForm} title="Please Login"/>
         </Scene>
+
         <Scene key="main">
           <Scene
             rightTitle="Add"
-            onRight={() => Actions.EmployeeCreate }
+            onRight={() => Actions.EmployeeCreate() }
             key ="employeeList" 
             component={EmployeeList} 
             title="Employees"
@@ -25,6 +26,11 @@ const RouterComponent = () => {
           key="employeeCreate"
           component={EmployeeCreate}
           title="Create Employee"
+        />
+        <Scene 
+          key="employeeEdit"
+          component={EmployeeEdit}
+          title="Edit Employee"
         />
         </Scene> 
       </Scene>

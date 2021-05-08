@@ -7,9 +7,10 @@ class EmployeeEdit extends Component {
   render() {
     return (
       <Card>
+        <EmployeeForm />
         <CardSection>
           <Button>
-            Save
+            Save Changes
           </Button>
         </CardSection>
       </Card>
@@ -17,4 +18,4 @@ class EmployeeEdit extends Component {
   }
 }
 
-export default EmployeeEdit
+export default connect()(EmployeeEdit)

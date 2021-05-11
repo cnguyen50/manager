@@ -7,7 +7,9 @@ import { employeeUpdate } from '../actions'
 
 class EmployeeEdit extends Component {
   componentWillMount() {
-
+    _.each(this.props.employee, (value, prop) => {
+      this.props.employeeUpdate({ prop, value })
+    })
   }
 
   render() {
@@ -15,7 +17,7 @@ class EmployeeEdit extends Component {
       <Card>
         <EmployeeForm />
         <CardSection>
-          <Button>
+          <Button onPress={this.onButtonPress.bind(this)}>
             Save Changes
           </Button>
         </CardSection>

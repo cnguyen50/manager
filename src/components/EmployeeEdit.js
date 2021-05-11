@@ -19,4 +19,4 @@ class EmployeeEdit extends Component {
   }
 }
 
-export default connect()(EmployeeEdit)
+export default connect(null, { employeeUpdate })(EmployeeEdit)

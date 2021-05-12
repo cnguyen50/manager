@@ -14,7 +14,7 @@ class EmployeeEdit extends Component {
 
   onButtonPress() {
     const { name, phone, shift} = this.props
-    console.log(name. phone, shift)
+    console.log(name, phone, shift)
   }
 
   render() {
@@ -29,6 +29,12 @@ class EmployeeEdit extends Component {
       </Card>
     )
   }
+}
+
+const mapStateToProps = (state) => {
+  const { name, phone, shift } = state.EmployeeForm
+
+  return { name, phone, shift }
 }
 
 export default connect(null, { employeeUpdate })(EmployeeEdit)

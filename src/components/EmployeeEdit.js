@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import { Card, CardSection, Button } from './common'
 import EmployeeForm from './EmployeeForm'
 import { connect } from 'react-redux'
-import { employeeUpdate } from '../actions'
+import { employeeUpdate, employeeSave } from '../actions'
 
 class EmployeeEdit extends Component {
   componentWillMount() {
@@ -37,4 +37,4 @@ const mapStateToProps = (state) => {
   return { name, phone, shift }
 }
 
-export default connect(mapStateToProps, { employeeUpdate })(EmployeeEdit)
+export default connect(mapStateToProps, { employeeUpdate, employeeSave })(EmployeeEdit)

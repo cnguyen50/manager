@@ -4,6 +4,7 @@ import { Card, CardSection, Button } from './common'
 import EmployeeForm from './EmployeeForm'
 import { connect } from 'react-redux'
 import { employeeUpdate, employeeSave } from '../actions'
+import Communications from 'react-native-communications'
 
 class EmployeeEdit extends Component {
   componentWillMount() {
@@ -16,6 +17,10 @@ class EmployeeEdit extends Component {
     const { name, phone, shift} = this.props
     
     this.props.employeeSave({ name, phone, shift, uid: this.props.employee.uid })
+  }
+
+  onTextPress() {
+    
   }
 
   render() {

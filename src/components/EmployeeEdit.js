@@ -27,6 +27,10 @@ class EmployeeEdit extends Component {
             Save Changes
           </Button>
         </CardSection>
+
+        <CardSection>
+          <Button></Button>
+        </CardSection>
       </Card>
     )
   }

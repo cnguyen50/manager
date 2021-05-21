@@ -4,7 +4,11 @@ import { CardSection } from './CardSection'
 import { Button } from './Button'
 
 const Confirm = () => {
-  return
+  return (
+    <Modal>
+      
+    </Modal>
+  )
 }
 
 export default Confirm

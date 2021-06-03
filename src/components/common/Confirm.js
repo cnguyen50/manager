@@ -6,9 +6,17 @@ import { Button } from './Button'
 const Confirm = () => {
   return (
     <Modal>
-      
+      <View>
+        <CardSection>
+          <Text></Text>
+        </CardSection>
+
+        <CardSection>
+          <Button></Button>
+        </CardSection>
+      </View>
     </Modal>
   )
 }
 
-export default Confirm
+export default { Confirm }

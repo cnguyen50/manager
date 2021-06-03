@@ -12,7 +12,8 @@ const Confirm = () => {
         </CardSection>
 
         <CardSection>
-          <Button></Button>
+          <Button>Yes</Button>
+          <Button>No</Button>
         </CardSection>
       </View>
     </Modal>

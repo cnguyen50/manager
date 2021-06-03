@@ -3,12 +3,12 @@ import { Text, View, Modal } from 'react-native'
 import { CardSection } from './CardSection'
 import { Button } from './Button'
 
-const Confirm = () => {
+const Confirm = ({ children }) => {
   return (
     <Modal>
       <View>
         <CardSection>
-          <Text></Text>
+          <Text>{children}</Text>
         </CardSection>
 
         <CardSection>

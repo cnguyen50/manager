@@ -6,6 +6,7 @@ import { Button } from './Button'
 const Confirm = ({ children }) => {
   return (
     <Modal
+      transparent
       animationType="slide"
       onRequestClose={() => {}}
     >

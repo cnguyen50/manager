@@ -7,7 +7,7 @@ const Confirm = ({ children }) => {
   return (
     <Modal
       animationType="slide"
-      
+      onRequestClose={() => {}}
     >
       <View>
         <CardSection>

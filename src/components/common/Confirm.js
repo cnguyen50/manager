@@ -5,7 +5,10 @@ import { Button } from './Button'
 
 const Confirm = ({ children }) => {
   return (
-    <Modal>
+    <Modal
+      animationType="slide"
+      
+    >
       <View>
         <CardSection>
           <Text>{children}</Text>

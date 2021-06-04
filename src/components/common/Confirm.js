@@ -12,7 +12,7 @@ const Confirm = ({ children }) => {
         </CardSection>
 
         <CardSection>
-          <Button>Yes</Button>
+          <Button onPress={onAccept}>Yes</Button>
           <Button>No</Button>
         </CardSection>
       </View>

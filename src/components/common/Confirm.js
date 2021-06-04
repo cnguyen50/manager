@@ -13,7 +13,7 @@ const Confirm = ({ children }) => {
 
         <CardSection>
           <Button onPress={onAccept}>Yes</Button>
-          <Button>No</Button>
+          <Button onPress={onDecline}>No</Button>
         </CardSection>
       </View>
     </Modal>

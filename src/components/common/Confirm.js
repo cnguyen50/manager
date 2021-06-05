@@ -25,4 +25,19 @@ const Confirm = ({ children, visible, onAccept, onDecline }) => {
   )
 }
 
+const styles = {
+  cardSectionStyle: {
+    justifyContent: 'center'
+  },
+  textStyle: {
+    flex: 1,
+    fontSize: 18,
+    textAlign: 'center',
+    
+  },
+  containerStyle: {
+
+  }
+}
+
 export default { Confirm }

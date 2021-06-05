@@ -36,7 +36,10 @@ const styles = {
     lineHeight: 40
   },
   containerStyle: {
-    backgroundColor: 'rgba(0, 0, 0, 0.75)'
+    backgroundColor: 'rgba(0, 0, 0, 0.75)',
+    flex: 1,
+    postion: 'relative',
+    justifyContent: 'center'
   }
 }
 

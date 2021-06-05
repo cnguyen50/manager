@@ -4,6 +4,8 @@ import { CardSection } from './CardSection'
 import { Button } from './Button'
 
 const Confirm = ({ children, visible, onAccept, onDecline }) => {
+  const { containerStyle, textStyle, cardSectionStyle } = styles
+  
   return (
     <Modal
       visible={visible}

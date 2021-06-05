@@ -5,7 +5,7 @@ import { Button } from './Button'
 
 const Confirm = ({ children, visible, onAccept, onDecline }) => {
   const { containerStyle, textStyle, cardSectionStyle } = styles
-  
+
   return (
     <Modal
       visible={visible}
@@ -13,8 +13,8 @@ const Confirm = ({ children, visible, onAccept, onDecline }) => {
       animationType="slide"
       onRequestClose={() => {}}
     >
-      <View>
-        <CardSection>
+      <View style={cardSectionStyle}>
+        <CardSection style={cardSectionStyle}>
           <Text>{children}</Text>
         </CardSection>
 

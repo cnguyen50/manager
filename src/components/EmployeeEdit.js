@@ -40,6 +40,10 @@ class EmployeeEdit extends Component {
             Text Schedule
           </Button>
         </CardSection>
+        
+        <Confirm>
+          Are you sure you want to delete this?
+        </Confirm>
       </Card>
     )
   }

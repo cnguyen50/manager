@@ -44,8 +44,8 @@ class EmployeeEdit extends Component {
         </CardSection>
 
         <CardSection>
-          <Button>
-            
+          <Button onPress={() => this.setState({ showModal: !this.state.showModal})}>
+            Fire Employee
           </Button>
         </CardSection>
         

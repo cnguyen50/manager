@@ -42,6 +42,12 @@ class EmployeeEdit extends Component {
             Text Schedule
           </Button>
         </CardSection>
+
+        <CardSection>
+          <Button>
+            
+          </Button>
+        </CardSection>
         
         <Confirm
           visible={this.state.showModal}

@@ -7,6 +7,8 @@ import { employeeUpdate, employeeSave } from '../actions'
 import Communications from 'react-native-communications'
 
 class EmployeeEdit extends Component {
+  state = { showModal: false };
+  
   componentWillMount() {
     _.each(this.props.employee, (value, prop) => {
       this.props.employeeUpdate({ prop, value })

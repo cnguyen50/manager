@@ -41,7 +41,9 @@ class EmployeeEdit extends Component {
           </Button>
         </CardSection>
         
-        <Confirm>
+        <Confirm
+          visible={}
+        >
           Are you sure you want to delete this?
         </Confirm>
       </Card>

@@ -52,6 +52,7 @@ class EmployeeEdit extends Component {
         <Confirm
           visible={this.state.showModal}
           onAccept={}
+          onDecline={}
         >
           Are you sure you want to delete this?
         </Confirm>

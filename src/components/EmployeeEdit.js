@@ -27,6 +27,14 @@ class EmployeeEdit extends Component {
     Communications.text(phone, `Your upcoming shift is on ${shift}`)
   }
 
+  onAccept() {
+    
+  }
+
+  onDecline() {
+    
+  }
+
   render() {
     return (
       <Card>
